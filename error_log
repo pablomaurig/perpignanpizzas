@@ -1,0 +1,12 @@
+[25-Jun-2016 17:57:33 UTC] PHP Notice:  Undefined index: nombre in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 3
+[25-Jun-2016 17:57:33 UTC] PHP Notice:  Undefined index: email in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 4
+[25-Jun-2016 17:57:33 UTC] PHP Notice:  Undefined index: telefono in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 5
+[25-Jun-2016 17:57:33 UTC] PHP Notice:  Undefined index: mensaje in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 6
+[11-Dec-2018 14:12:12 UTC] PHP Notice:  Undefined index: nombre in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 3
+[11-Dec-2018 14:12:12 UTC] PHP Notice:  Undefined index: email in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 4
+[11-Dec-2018 14:12:12 UTC] PHP Notice:  Undefined index: telefono in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 5
+[11-Dec-2018 14:12:12 UTC] PHP Notice:  Undefined index: mensaje in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 6
+[31-Dec-2018 00:31:49 UTC] PHP Notice:  Undefined index: nombre in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 3
+[31-Dec-2018 00:31:49 UTC] PHP Notice:  Undefined index: email in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 4
+[31-Dec-2018 00:31:49 UTC] PHP Notice:  Undefined index: telefono in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 5
+[31-Dec-2018 00:31:49 UTC] PHP Notice:  Undefined index: mensaje in /home/pablomaurig/public_html/clientes/perpignanpizzas.com/proceso.php on line 6

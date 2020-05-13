@@ -1,0 +1,273 @@
+body {	color:#333;	font:300 15px/15px 'Ropa Sans',Arial,Helvetica;background:url(../images/bg2.jpg) right no-repeat fixed #fff; -webkit-font-smoothing:antialiased;background-size:cover;overflow-x:hidden;}
+
+
+a{color:#00a9c6; text-decoration:none;}
+a:hover{color:#666;}
+.btn,a,.btn:hover,a:hover {
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+outline: none !important;
+}
+
+h1,h2,h3,h4{margin: 0;line-height: 1em;}
+h2{font:300 2.5em 'Ropa Sans',Arial,Helvetica;margin-bottom: 1.5em;}
+h3{font:300 2em 'Ropa Sans',Arial,Helvetica;margin:2em 0 1em 0;}
+h4{font:300 1.5em 'Ropa Sans',Arial,Helvetica;margin-bottom: 1em;}
+h4 i{margin-right: 0.5em;}
+
+p{font-size:1.3em;line-height: 1.7em; margin-bottom: 1.7em;}
+
+.spacer{padding: 6em 0;}
+
+.btn{border:none;border-radius: 0;padding: 1em 4em;background: rgba(0,0,0,0.5);text-transform: uppercase;}
+.btn:hover,.btn:active{color: #fff;}
+.btn-default{color: #ccc;border: 1px solid #aaa;}
+.btn-default:hover,.btn-default:active{background: rgba(0,0,0,0.8);}
+.btn-primary{color: #fff;background:#666;width: 100%;outline: none;}
+.btn-primary:hover,.btn-primary:active,.btn-primary:focus{background:#333;box-shadow: none;}
+
+.topbar {background:url(../images/lines.png);	height:5px;position: fixed;top: 0;width: 100%;z-index: 1000;}
+.navbar-nav > li > a{font-size: 1.3em;line-height: 3.4em;font-family: 'Ropa Sans',Arial,Helvetica;}
+.navbar-fixed-top{top: 5px;}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{background: none;color: #fff;}
+
+#head,.carousel{margin-top: 0;}
+
+#home{/*padding-top: 6em;*/}
+
+/*banner*/
+.banner{position: relative;background:url(../images/back.jpg) center center no-repeat;background-size:cover;height:100vh;}
+.banner .caption{position: absolute;top: 0;left:0; right: 0; bottom: 0;background:rgba(0,0,0,0.4);padding-top: 6em;}
+.banner .caption-wrapper{display: table;height: 100%;width: 100%;}
+.banner .caption-info{display: table-cell;vertical-align: middle;text-align: center;color: #fff;}
+.banner .caption-info h1{}
+.banner .caption-info p{font:600 1.7em 'Handlee', cursive,Arial,Helvetica;font-style:italic;}
+.banner a.explore{color: #fff;}
+
+/*about*/
+#perpignan, #menu{padding-top:6em;}
+#contact{padding:6em 0;}
+.about.spacer{padding:4em;background:rgba(255,255,255,0.8);}
+.food-list{line-height:3em;border-bottom:1px dotted #ccc; }
+.panel-group .panel{border-radius: 0;border:none;}
+.panel-group .panel a:hover{text-decoration: none;}
+
+
+/*testimonials*/
+.partners img{float: left;margin:0 75px 30px 0;}
+.testimonails{min-height: 195px;}
+.testimonails img{margin-top: 5px;}
+.testimonails span{color: #888;}
+.testimonails span b{font-weight: 400;}
+.carousel-indicators li{border: 1px solid #ccc;}
+.carousel-indicators{bottom: 0;}
+
+/*foods*/
+#foods{padding-top:0;}
+#foods figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0.5em 2em;}
+#foods figcaption a:hover{text-decoration: none;padding: 0.5em 3em;}
+.blueimp-gallery>.slides>.slide{cursor:move;cursor:-ms-grab;cursor:-o-grab;cursor:-webkit-grab;cursor: -moz-grab;}
+.blueimp-gallery>.slides>.slide:active{cursor:move;cursor:-ms-grabbing;cursor:-o-grabbing;cursor:-webkit-grabbing;cursor:-moz-grabbing;}
+
+.panel-title span{line-height:30px;}
+.fa-piza{height:30px;width:30px;background: url(../images/piza.png) 0 0 no-repeat;float:left;}
+.fa-pizae{height:30px;width:30px;background: url(../images/pizap.png) 0 0 no-repeat;float:left;}
+.fa-empanada{height:30px;width:30px;background: url(../images/empa.png) 0 0 no-repeat;float:left;}
+.fa-canasta{height:30px;width:30px;background: url(../images/canasta.png) 0 0 no-repeat;float:left;}
+.fa-bebidas{height:30px;width:30px;background: url(../images/bebida.png) 0 0 no-repeat;float:left;}
+/*
+a.imgpiza{display:none;}
+*/
+.food-list .pull-left{width:calc(100% - 160px);}
+.food-list span.pull-right{width: 80px;text-align:right;}
+.food-list span.pull-right span{display:none;}
+.food-list.precios{margin-top:-4em;border-bottom:none;}
+.food-list.docena{margin-top:-4em;border-bottom:none;}
+.food-list.docena span.pull-right{width: initial;text-align:right;}
+#foods{display: none;}
+
+.delivery .sucursal{position: relative;}
+.delivery .sucursal span{position: absolute;top:100%;left: 0;right: 0;text-align: center;font-size: 0.5em;}
+
+/*contacto*/
+.hide{
+    display: none;
+}
+.ajaxgif{width: initial;display: block;margin: 15px auto 0; }
+.msg{padding-top: 15px;
+}
+.msg_ok{
+}
+.msg_error{
+    color: red;
+}
+
+/*foods*/
+
+/*team*/
+.team figure{width: 100%;}
+.team img{width: 100%;}
+.team b{font-size: 1.2em;display: block;}
+.team a i.fa{color: #fff; font-size: 2em;}
+.team a i.fa:hover{color: #E89F10;}
+
+.pedidoya h1{font-family:'Handlee', cursive,Arial,Helvetica;font-style: italic;}
+.pedidoya .btn-default{    display: inline-block;
+    padding: 6px 12px;
+    margin: 1em;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;}
+
+.highlight-info{ background:url(../images/im1.jpg) center fixed; background-size: cover; color:#fff;}
+.pizaxl{ background:url(../images/im2.jpg) center fixed; background-size: cover; color:#fff;}
+.pedidoya{ background:url(../images/back-pedido.jpg) center fixed;background-size: cover;}
+.highlight-info .overlay{background:rgba(0, 0, 0, 0.4);box-shadow: inset 0 0 7em 1em rgba(0,0,0,0.8);}
+.highlight-info h4{color: #fff;margin:0.5em 0 0 0;}
+/*about us*/
+
+#pizzaxl{margin-top:6em;}
+#pedidoya{margin-top:6em;}
+
+
+/*contact*/
+.contactform textarea,.contactform input{width: 100%;padding:1em;border:1px solid #ccc;margin-bottom: 1em;border-radius: 0;outline: none;}
+/*contact*/
+
+#map-canvas{width:100%;height:500px;}
+
+.footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;}
+.footer a{color: #aaa;margin: 0 1em; }
+
+.gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
+.gototop i{line-height: 0.5em;}
+
+.wowload{visibility: hidden;}
+
+.blueimp-gallery>.title{
+	position: absolute;
+    top: initial;
+    left: 15px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-shadow: 0 0 2px #000;
+    opacity: .8;
+    bottom: 20px;
+    right: 15px;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    padding: 20px 0;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;}
+
+.blueimp-gallery>.close{
+	padding: 15px;
+    right: 15px;
+    top: 15px;
+    margin: -15px;
+    font-size: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    left: initial;
+    bottom: initial;}
+
+
+@media (max-width: 1200px) {
+	body{font:300 13px/13px 'Ropa Sans',Arial,Helvetica;}
+	.navbar-brand{padding-top: 11px;}
+	.services ul li{margin:0 0.5em; }
+	
+	.grid figure h2{font: 700 1.5em 'Ropa Sans',Arial,Helvetica;}
+	figure.effect-oscar figcaption{padding: 12%;}
+	figure.effect-oscar figcaption::before,figure.effect-chico figcaption::before{top: 20px;right: 20px;bottom: 20px;left: 20px;}
+
+	.partners img{margin: 0 25px 25px 0;}
+}
+
+@media (max-width: 900px) {
+	h1{font: 700 3.5em 'Ropa Sans',Arial,Helvetica;}
+	h4 {font: 300 1.3em 'Ropa Sans',Arial,Helvetica;}
+	.btn{padding: 1em 2em;}
+	.partners img{margin: 0 15px 25px 0;width: 157px;}
+	.services ul li{width: 9em;height: 9em;}
+	figure.effect-chico figcaption {padding: 2em;}	
+	figure.effect-oscar figcaption {padding: 20%;}
+	figure.effect-chico figcaption::before{top: 10px;right: 10px;bottom: 10px;left: 10px;}
+	.grid figure.effect-chico p{font-size: 0.6em;line-height: 1.5em;}	
+}
+
+
+@media (max-width: 767px) {
+	body{font:300 12px/12px 'Ropa Sans',Arial,Helvetica;}
+	.navbar-nav > li > a {line-height: 1em;}	
+	.navbar-brand{padding: 7px;}
+	.navbar-brand img{height: 37px;}
+	.navbar-toggle{margin-top: 12px;}
+	
+	.banner .caption{padding:0;}
+	.banner .caption .iso{width:40%;margin:0 auto;display:block;}
+	.banner .caption .iso img{width:100%;height:auto;display:block;}
+	.banner .caption-info h1{width:60%;margin:0 auto;}
+	.banner .caption-info h1 img{width:100%;height:auto;display:block;}
+	.banner .caption-info p{font:600 1.4em 'Handlee', cursive,Arial,Helvetica;}
+
+	.carousel-caption,.carousel-control,.carousel-indicators, #map{display: none;}
+	
+	#perpignan, #menu, #contact, #foods{padding:0;}
+	#pizzaxl{margin:0;}
+
+	h2.text-center{text-align: left;font-size: 1.7em;}
+	h4 {font: 300 1.2em 'Ropa Sans',Arial,Helvetica;}
+	#partners h2{padding: 0 1em;} 
+	#home {padding-top: 5em;}
+
+	.partners{display: block;float: left;}
+	.partners img{width: 120px;}
+@media (max-width: 767px) {
+
+	.about.spacer{padding:6em 2em;}
+	.spacer{padding:2em 0 ;}
+	.services ul li{margin-bottom: 1em;}
+
+	.highlight-info .overlay{padding-bottom: 2em;}
+
+	.grid.team div{margin: 0;padding: 0;}
+	figure.effect-chico figcaption {padding: 1.5em;}
+	#map{height: 200px;}
+	.footer{padding-bottom: 2em;}
+	
+	.pizaxl h1{font-size:2em;}
+	.animated{
+	  -webkit-animation: none;
+	  animation:none;
+	
+	}
+}
+@media (max-width: 500px) {
+	.food-list.precios{display: none;}
+	.food-list.docena{margin-top:0;border-bottom:1px dotted #ccc;}
+	.pizzas .food-list .pull-left{width:100%;float:none!important;}
+	.pizzas .food-list span.pull-right{width:100%;float:none!important;padding-right:10px;}
+	.precios .pull-right{display:none!important;}
+	.pizzas .food-list span.pull-right span{display:inline-block; }
+	.food-list .pull-left{width:calc(100% - 80px);}
+}
